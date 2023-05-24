@@ -1,0 +1,35 @@
+@use "../../scss/abstracts/" as *;
+
+.heroSection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: $primaryColor;
+  border-radius: 5px;
+  text-align: center;
+
+  display: grid;
+}
+.arrowDownIcon > svg {
+  font-size: 35px;
+  animation: animeArrowDown 0.8s infinite alternate;
+}
+
+.imageHero > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .imageHero > img {
+    width: 100%;
+    height: 350px;
+  }
+}
+@keyframes animeArrowDown {
+  from {
+    transform: translate(0px, 0);
+  }
+  to {
+    transform: translate(0px, 5px);
+  }
+}

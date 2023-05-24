@@ -1,0 +1,16 @@
+@use "../../scss/abstracts/" as *;
+
+.navbar {
+  background: $complementaryColor;
+  color: $primaryColor;
+
+  .navLink {
+    color: $primaryColor;
+    padding: 10px;
+    text-decoration: none;
+
+    &:hover {
+      color: $brandColor;
+    }
+  }
+}

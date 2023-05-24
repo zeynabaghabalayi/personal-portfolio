@@ -1,0 +1,19 @@
+.contact {
+  border: 1px solid red;
+  display: grid;
+}
+.contact nav {
+  border: 1px solid blue;
+}
+.contact nav li,
+.contact nav a {
+  list-style-type: none;
+}
+.contact nav li {
+  padding: 10px;
+  margin: 5px;
+}
+
+form {
+  border: 2px solid rgb(242, 231, 15);
+}/*# sourceMappingURL=Contact.module.css.map */

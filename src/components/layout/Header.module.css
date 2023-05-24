@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+.navbar {
+  background: #111827;
+  color: #f9fafb;
+}
+.navbar .navLink {
+  color: #f9fafb;
+  padding: 10px;
+  text-decoration: none;
+}
+.navbar .navLink:hover {
+  color: #60a5fa;
+}/*# sourceMappingURL=Header.module.css.map */
